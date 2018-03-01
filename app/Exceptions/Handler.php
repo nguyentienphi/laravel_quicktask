@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Exceptions;
-
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use App\Exceptions\TaskHandler;
 
 class Handler extends ExceptionHandler
 {
